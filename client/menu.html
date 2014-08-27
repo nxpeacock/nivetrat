@@ -1,0 +1,30 @@
+<template name="topMenu">
+    <div class="menu">
+        <a class="active item" href="{{pathFor 'dashboard'}}">
+            <i class="home icon"></i>
+            Bảng tin
+        </a>
+        <a class="item">
+            <i class="chat outline icon"></i>
+            Khách viếng thăm
+        </a>
+        <a class="item">
+            <i class="mail icon"></i> Messages
+        </a>
+        <div class="right menu">
+            <div class="ui dropdown item">
+                Cài đặt <i class="icon dropdown"></i>
+                <div class="menu">
+                    <a class="item"><i class="edit icon"></i> Edit Profile</a>
+                    <a class="item"><i class="globe icon"></i> Choose Language</a>
+                    <a class="item"><i class="settings icon"></i> Account Settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui sub menu">
+        <a class="active item">Search</a>
+        <a class="item">Add</a>
+        <a class="item">Remove</a>
+    </div>
+</template>
