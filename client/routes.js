@@ -20,6 +20,9 @@ Router.map(function(){
     this.route('agents',{
         path : '/nhan-vien'
     });
+    this.route('agents_addNew',{
+        path : '/nhan-vien/them'
+    });
     this.route('departments',{
         path : '/nhan-vien/phong-ban'
     })
