@@ -8,7 +8,19 @@ Router.configure({
 });
 
 Router.map(function(){
-    this.route('dashboard',{
+    this.route('home',{
         path : '/'
+    });
+    this.route('visitor',{
+        path : '/khach-vieng-tham'
+    });
+    this.route('history',{
+        path : '/lich-su-chat'
+    });
+    this.route('agents',{
+        path : '/nhan-vien'
+    });
+    this.route('departments',{
+        path : '/nhan-vien/phong-ban'
     })
 })

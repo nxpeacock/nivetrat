@@ -7,4 +7,9 @@ standard-app-packages
 arunoda:streams
 nooitaf:semantic-ui
 iron:router
+accounts-base
+accounts-password
+digilord:roles
+zimme:iron-router-active
+raix:handlebar-helpers
 
